@@ -1,4 +1,4 @@
-// src/contexts/CartContext.tsx
+// src/contexts/CartContext.tsx trying to change
 import React, { useState, useEffect, createContext, useContext } from 'react';
 import { CoffeeProduct, WeightOption } from '../types/Coffee';
 
