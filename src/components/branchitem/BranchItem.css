@@ -1,0 +1,101 @@
+.branch-item {
+    background-color: #eaf3f5; /* Light Blue background */
+    color: #2b3e42; /* Dark Gray text for contrast */
+    border: 1px solid #d4a500; /* Golden Yellow border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 75%;
+    min-width: 60%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Vertically align items */
+}
+
+.branch-item.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Move to its original position */
+}
+
+.branch-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #2b3e42; /* Dark Gray for text */
+}
+
+.branch-title {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #d4a500; /* Golden Yellow color for the title */
+    font-weight: bold;
+}
+
+.branch-foto {
+    width: 100%;
+    max-width: 300px;
+    margin-left: 20px; /* Add spacing between text and image */
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.branch-item-link {
+    text-decoration: none;
+}
+
+.branch-item-link:hover {
+    scale: 1.05;
+}
+
+/* General Styles for .branch-title */
+.branch-title {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: left;
+
+    color: #d4a500; /* Golden Yellow color */
+    font-weight: bold;
+}
+
+/* For screens 768px or smaller, adjust text alignment and font size */
+@media (max-width: 768px) {
+    .branch-title {
+        font-size: 2rem; /* Larger text on small screens */
+        text-align: center; /* Center-align the text on small screens */
+        margin-bottom: 10px; /* Adjust margin for better spacing */
+    }
+
+    .branch-item {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        /*align-items: flex-start; !* Align items to the left *!*/
+    }
+
+    .branch-foto {
+        margin-left: 0; /* Remove left margin */
+        margin-top: 15px; /* Add some space between text and image */
+        max-width: 100%; /* Ensure the image takes full width */
+    }
+
+    .branch-text {
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) {
+    .branch-title {
+        text-align: left; /* Default to left-aligned */
+
+    }
+    .branch-item {
+        text-align: left; /* Default to left-aligned */
+
+    }
+}

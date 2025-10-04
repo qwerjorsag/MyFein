@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Sarah Johnson",
+    "position": "Founder & CEO",
+    "description": "Driven founder with a passion for delivering unique and quality products to customers worldwide",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#",
+      "github": "#"
+    }
+  },
+  {
+    "name": "Michael Chen",
+    "position": "E-commerce Specialist",
+    "description": "Expert in online retail strategies, optimizing the shopping experience, and managing product listings",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#",
+      "github": "#"
+    }
+  },
+  {
+    "name": "Emily Rodriguez",
+    "position": "Marketing Lead",
+    "description": "Creative strategist focused on brand building and increasing customer engagement across platforms",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#",
+      "github": "#"
+    }
+  },
+  {
+    "name": "David Park",
+    "position": "Customer Support Manager",
+    "description": "Dedicated to providing exceptional service and ensuring customer satisfaction in every transaction",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#",
+      "github": "#"
+    }
+  },
+  {
+    "name": "John Adams",
+    "position": "Head of Recruiting",
+    "description": "Experienced recruiter with a passion for finding top talent and building strong teams",
+    "image": "https://images.unsplash.com/photo-1547680079-9b55bfc93eb3",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#",
+      "github": "#"
+    }
+  }
+]

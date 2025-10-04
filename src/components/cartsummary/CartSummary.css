@@ -1,0 +1,72 @@
+.cart-summary {
+    position: fixed;
+    left: -240px; /* Initially hide off the left side */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    transition: left 0.3s ease-in-out; /* Smooth slide-in effect */
+    width: 250px; /* Adjust width based on your needs */
+    z-index: 300;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cart-summary--visible {
+    left: 0; /* Bring the cart summary into view */
+}
+
+.cart-summary__toggle {
+    position: absolute;
+    top: 10px;
+    right: -90px; /* Position the toggle button outside the cart summary */
+    background-color: #d4a500; /* Golden Yellow */
+    color: white;
+    border: none;
+     padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.cart-summary__toggle:hover {
+    background-color: #cc8500;
+}
+
+.cart-summary__content {
+    padding: 20px;
+}
+
+.cart-summary__details {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cart-summary__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart-summary__clear {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #d4a500; /* Golden Yellow */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.cart-summary__clear:hover {
+    background-color: #cc0000;
+    scale: 1.1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}

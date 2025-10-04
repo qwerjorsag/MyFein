@@ -1,0 +1,72 @@
+/* src/styles/CoffeeCatalog.css */
+
+/* General Catalog Styling */
+.coffee-catalog {
+    display: grid;
+    max-width: 90%;
+    justify-content: center;
+    margin: 0 auto; /* Centers the entire grid within its parent */
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Ensures a min column width of 350px */
+    gap: 20px;
+    padding: 20px;
+}
+
+
+/* Product Card Styling */
+.coffee-card {
+    width: 350px;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Depth for cards */
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #ffffff;
+    margin: 0 auto;
+    /* Ensures the card centers
+
+   }
+
+   /*.coffee-card:hover {*/
+    /*    transform: scale(1.05);*/
+    /*    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); !* Add hover effect *!*/
+    /*}*/
+
+    .coffee-card__media img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .coffee-card__content {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .coffee-card__title {
+        font-size: 1.5rem;
+        color: #d4a500; /* Golden Yellow */
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .coffee-card__text {
+        font-size: 1rem;
+        color: #6e4c31; /* Coffee-brown */
+        margin-bottom: 10px;
+    }
+
+    .coffee-card__text strong {
+        font-weight: bold;
+    }
+
+    .coffee-card__price {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #2b3e42;
+        margin-bottom: 15px;
+    }
+
+ }

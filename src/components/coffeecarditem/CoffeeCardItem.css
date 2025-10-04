@@ -1,0 +1,91 @@
+.coffee-card__dropdown label {
+    font-size: 0.9rem;
+    color: #2b3e42; /* Dark Gray text for label */
+}
+
+.coffee-card__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.coffee-card__dropdown {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d4a500; /* Golden Yellow background */
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.coffee-card__dropdown:hover {
+    border-color: #d4a500; /* Golden Yellow border on hover */
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.coffee-card__dropdown:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(212, 165, 0, 0.8); /* Golden Yellow focus shadow */
+}
+
+.coffee-card__dropdown option {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d4a500; /* Golden Yellow option */
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.coffee-card__button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #d4a500; /* Golden Yellow */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.coffee-card__button:hover {
+    background-color: #b58f00; /* Darker yellow */
+    transform: scale(1.05);
+}
+
+/* Style for disabled button */
+.coffee-card__button:disabled {
+    background-color: #dcdcdc; /* Light grey background */
+    color: #a1a1a1; /* Grey text */
+    cursor: not-allowed; /* Not allowed cursor */
+    transition: none; /* Disable transition effects when disabled */
+    transform: none;
+}
+
+.cart-item__remove {
+    background-color: #757575;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-item__remove:hover {
+    background-color: #cc0000;
+}
+
+.coffee-card__details-link {
+    color: #d4a500; /* Same gold color as the first scheme */
+    text-decoration: none;
+    margin-top: 15px; /* Match the spacing of your example */
+}
+
+.coffee-card__details-link:hover {
+    color: #b67a00; /* Darker gold on hover, consistent with the example */
+    text-decoration: underline;
+}

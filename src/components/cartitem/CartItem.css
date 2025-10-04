@@ -1,0 +1,82 @@
+/* Cart Item Styling */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%; /* Make it take more space for better fit */
+    max-width: 600px; /* Prevent it from getting too large */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #ffffff;
+}
+
+/* Ensure the image adapts */
+.cart-item__image {
+    max-width: 180px; /* Reduce size for better fit */
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+/* Actions should always be visible */
+.cart-item__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Allow buttons to wrap if needed */
+}
+
+/* Ensure quantity text is always visible */
+.cart-item__quantity {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .cart-item {
+        width: 85%; /* More space for tablets */
+        flex-direction: column; /* Stack items */
+        align-items: center;
+    }
+
+    .cart-item__image {
+        max-width: 150px; /* Smaller image for tablets */
+    }
+
+    .cart-item__actions {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .cart-item {
+        width: 85%; /* More fluid for mobile */
+        padding: 10px; /* Reduce padding */
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cart-item__image {
+        max-width: 120px; /* Reduce image size */
+    }
+
+    .cart-item__actions {
+        flex-wrap: wrap;
+        gap: 5px; /* Reduce spacing */
+    }
+
+    .cart-item__quantity {
+        font-size: 1rem; /* Adjust text size */
+    }
+}

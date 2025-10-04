@@ -1,0 +1,54 @@
+/* Booking Page Container */
+.booking-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    /*background-color: #f0f4f8; !* Slightly lighter than the form background *!*/
+    min-height: 100vh;
+}
+
+/* Booking Page Title */
+/* Booking Page Title */
+.booking-page-title {
+    font-size: 2.5rem;
+    color: transparent;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    padding: 10px 20px;
+    border: 5px solid transparent; /* Transparent border */
+    background: linear-gradient(to right, #d4a500, #264e86, #d4a500); /* Gold, Royal Blue, and Gold */
+
+
+
+
+
+
+    border-radius: 10px;
+    background-clip: text;
+    display: inline-block;
+    overflow: hidden;
+    /*background: linear-gradient(to right, #fc72, #487bff, #8f68ff, #fc72ff);*/
+    background-size: 200%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+
+}
+
+@keyframes animate-gradient { to  {background-position: 200%; }  }
+
+
+
+/* Booking Page Description */
+.booking-page-description {
+    font-size: 1.2rem;
+    color: #4a5a60; /* Medium gray */
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.5;
+}

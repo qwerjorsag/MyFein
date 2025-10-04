@@ -1,0 +1,31 @@
+.filter {
+    margin-bottom: 20px;
+
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if there are many checkboxes */
+    gap: 10px; /* Adds space between checkboxes */
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; /* Space between checkboxes */
+}
+
+.radio-label input {
+    margin-right: 5px; /* Space between checkbox and label text */
+}
+
+@media (max-width: 768px) {
+    .filters-container {
+        flex-direction: column;
+        align-items: flex-start; /* Stack filters vertically */
+    }
+
+    .filter, .acidity-filter {
+        margin-bottom: 10px; /* Space between filters */
+    }
+}

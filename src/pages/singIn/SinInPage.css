@@ -1,0 +1,17 @@
+/* SignIn Page Styles */
+.signin-page {
+    display: flex;
+
+
+    height: 100vh;
+    background-color: #f4f8f8; /* Light background color */
+    font-family: Arial, sans-serif;
+}
+
+.signin-page-container {
+    width: 100%;
+    max-width: 400px; /* Limit the maximum width of the form */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}

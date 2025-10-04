@@ -1,0 +1,42 @@
+/* ErrorPage Styling */
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+    background-color: #f4f8f8; /* Light background color */
+    color: #2b3e42; /* Dark text color */
+    font-family: Arial, sans-serif;
+}
+
+.error-page h1 {
+    font-size: 3rem;
+    color: #d4a500; /* Golden color for the header */
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.error-page p {
+    font-size: 1.2rem;
+    color: #2b3e42; /* Dark text for description */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.error-page a {
+    font-size: 1rem;
+    color: #d4a500; /* Golden color for links */
+    text-decoration: none;
+    border: 2px solid #d4a500;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.error-page a:hover {
+    background-color: #d4a500; /* Gold background on hover */
+    color: white; /* White text on hover */
+    transform: scale(1.1); /* Slight scaling on hover */
+}

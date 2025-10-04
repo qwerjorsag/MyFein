@@ -1,0 +1,187 @@
+/* General Page Styling */
+.news-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    background-color: #f4f8f8; /* Light Blue background */
+    font-family: Arial, sans-serif;
+}
+
+/* News List Container */
+.news-list {
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual News Item Styling */
+.news-item {
+    width: 100%;
+    background-color: #ffffff; /* White background */
+    color: #2b3e42; /* Dark Gray text */
+    border: 1px solid #d4a500; /* Golden Yellow border */
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Pagination Styling */
+.pagination-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: flex;
+    gap: 10px;
+}
+
+.pagination-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #2b3e42; /* Dark Gray background */
+    color: #ffffff; /* White text */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination-button:hover {
+    background-color: #d4a500; /* Golden Yellow on hover */
+    color: #ffffff; /* Ensure text stays white on hover */
+}
+
+.pagination-button:disabled {
+    background-color: #ccc; /* Light gray for disabled state */
+    color: #6e6e6e; /* Gray text for disabled state */
+    cursor: not-allowed;
+}
+
+.pagination-button.active {
+    background-color: #d4a500; /* Soft Blue for active state */
+    color: #ffffff; /* White text on active */
+}
+
+/* Pagination Ellipsis Styling */
+.pagination-ellipsis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: none;
+    background-color: #2b3e42; /* Dark Gray background */
+    color: #ffffff; /* White text */
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: not-allowed;
+    user-select: none; /* Prevent text selection */
+}
+
+/*.pagination-ellipsis:hover {*/
+/*    background-color: #d4a500; !* Golden Yellow on hover *!*/
+/*    color: #ffffff; !* Ensure text stays white on hover *!*/
+/*}*/
+
+/* Items Per Page Dropdown Styling */
+.items-per-page {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.items-per-page label {
+    font-size: 0.9rem;
+    color: #2b3e42; /* Dark Gray text for label */
+}
+
+#items-per-page {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d4a500; /* Golden Yellow background */
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#items-per-page:hover {
+    border-color: #d4a500; /* Golden Yellow border on hover */
+    background-color: #e6e6e6;
+    color: black;
+}
+
+#items-per-page:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(212, 165, 0, 0.8); /* Golden Yellow focus shadow */
+}
+
+#items-per-page option {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d4a500; /* Golden Yellow option */
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#items-per-page option:hover {
+    background-color: #d4a500;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Field Filter Dropdown Styling */
+.filter-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.filter-container label {
+    font-size: 0.9rem;
+    color: #2b3e42; /* Dark Gray text for label */
+}
+
+#field-filter {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d4a500; /* Golden Yellow background */
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#field-filter:hover {
+    border-color: #d4a500; /* Golden Yellow border on hover */
+    background-color: #e6e6e6;
+    color: black;
+}
+
+#field-filter:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(212, 165, 0, 0.8); /* Golden Yellow focus shadow */
+}
+
+#field-filter option {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d4a500; /* Golden Yellow option */
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#field-filter option:hover {
+    background-color: #d4a500;
+    color: white;
+    cursor: pointer;
+}

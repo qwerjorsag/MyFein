@@ -1,0 +1,42 @@
+{
+  "en": {
+    "title": "Cookie Settings",
+    "description": "We use cookies to enhance your experience. Customize your preferences below:",
+    "necessary": "Necessary Cookies (Required)",
+    "analytics": "Analytics Cookies",
+    "marketing": "Marketing Cookies",
+    "save": "Save Preferences"
+  },
+  "es": {
+    "title": "Configuración de Cookies",
+    "description": "Utilizamos cookies para mejorar su experiencia. Personalice sus preferencias a continuación:",
+    "necessary": "Cookies necesarias (obligatorias)",
+    "analytics": "Cookies de análisis",
+    "marketing": "Cookies de marketing",
+    "save": "Guardar preferencias"
+  },
+  "fr": {
+    "title": "Paramètres des Cookies",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience. Personnalisez vos préférences ci-dessous :",
+    "necessary": "Cookies nécessaires (obligatoires)",
+    "analytics": "Cookies d'analyse",
+    "marketing": "Cookies marketing",
+    "save": "Enregistrer les préférences"
+  },
+  "de": {
+    "title": "Cookie-Einstellungen",
+    "description": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. Passen Sie Ihre Einstellungen unten an:",
+    "necessary": "Notwendige Cookies (erforderlich)",
+    "analytics": "Analyse-Cookies",
+    "marketing": "Marketing-Cookies",
+    "save": "Einstellungen speichern"
+  },
+  "cs": {
+    "title": "Nastavení Cookies",
+    "description": "Používáme cookies k vylepšení vašeho zážitku. Přizpůsobte své preference níže:",
+    "necessary": "Nezbytné cookies (povinné)",
+    "analytics": "Cookies pro analytiku",
+    "marketing": "Marketingové cookies",
+    "save": "Uložit preference"
+  }
+}

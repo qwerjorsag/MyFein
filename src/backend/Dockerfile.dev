@@ -1,0 +1,15 @@
+FROM node:18
+
+WORKDIR /app
+
+# zkopíruje package.json z rootu
+COPY ../../package.json ./
+RUN npm install
+
+# backend kód
+COPY src/backend ./src/backend
+
+EXPOSE 5000
+
+# spustíme server
+CMD ["node", "./src/backend/server.js"]

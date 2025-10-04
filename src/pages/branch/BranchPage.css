@@ -1,0 +1,110 @@
+/* BranchPage.css */
+
+.branch-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.filter-container select {
+    padding: 5px;
+    font-size: 1rem;
+}
+.filter-container label {
+    font-size: 0.9rem;
+    color: #2b3e42; /* Dark Gray text for label */
+}
+#size-filter, #city-filter {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d4a500; /* Golden Yellow background */
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#size-filter:hover, #city-filter:hover {
+    border-color: #d4a500; /* Golden Yellow border on hover */
+    background-color: #e6e6e6;
+    color: black;
+    cursor: pointer;
+}
+
+#size-filter:focus, #city-filter:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(212, 165, 0, 0.8); /* Golden Yellow focus shadow */
+    cursor: pointer;
+}
+
+/* Option Styling */
+#size-filter option, #city-filter option {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d4a500; /* Golden Yellow option */
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#size-filter::after, #city-filter::after {
+    content: '\2193'; /* Downwards arrow */
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease; /* Smooth transition for rotation */
+}
+
+
+#size-filter:focus::after, #city-filter:focus::after {
+    transform: translateY(-50%) rotate(180deg); /* Rotate arrow on focus */
+}
+
+#size-filter option:hover, #city-filter option:hover{
+    background-color: #d4a500;
+    color: white;
+    cursor: pointer;
+}
+.branch-list {
+    display: grid;
+    grid-template-columns: 1fr; /* One column per row */
+    gap: 20px;
+}
+
+.branch-item {
+    background-color: #ffffff;
+    color: #2b3e42;
+    width: 60%;
+    border: 1px solid #d4a500;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.branch-size,
+.branch-address {
+    font-size: 1rem;
+    color: #6e4c31;
+}
+
+.branch-image {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Dobírka",
+    "cost": 20,
+    "image": "payments/cash.png"
+  },
+  {
+    "name": "Karta",
+    "cost": 0,
+    "image": "payments/card.png"
+  },
+  {
+    "name": "Bankovní převod",
+    "cost": 0,
+    "image": "payments/bank.png"
+  },
+  {
+    "name": "Google Pay",
+    "cost": 0,
+    "image": "payments/gpay.png"
+  },
+  {
+    "name": "Apple Pay",
+    "cost": 0,
+    "image": "payments/applepay.png"
+  }
+]
+

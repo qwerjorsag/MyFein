@@ -1,0 +1,57 @@
+.news-item {
+    background-color: #eaf3f5; /* Light Blue background */
+    color: #2b3e42; /* Dark Gray text for contrast */
+    border: 1px solid #d4a500; /* Golden Yellow border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    min-width: 60%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.news-item.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Move to its original position */
+}
+
+.news-title {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #d4a500; /* Golden Yellow color for the title */
+    font-weight: bold;
+}
+
+.news-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.news-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #2b3e42; /* Dark Gray for meta text */
+}
+
+.news-date,
+.news-author,
+.news-state {
+    margin: 0;
+}
+
+.news-date,
+.news-author {
+    color: #6e4c31; /* Using a similar coffee-brown color */
+}
+
+.news-state {
+    color: #d4a500; /* Golden Yellow for state */
+    font-style: italic;
+}

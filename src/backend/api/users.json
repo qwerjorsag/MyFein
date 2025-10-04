@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "email": "qwerjsdorssdag@gmail.com",
+    "password": "$2b$10$CqL8d1cN12KCJrMPkjaAY.Y1/3W2H6letMJS.KdhAC1UavtyuFaMq",
+    "role": "user",
+    "realpwd": "aaAA12345"
+  },
+  {
+    "id": 2,
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "email": "orssdag@gmail.com",
+    "password": "$2b$10$5w5flDbBxS6j7nkPZit20u7xYkYv5mF93zyk.MdVn8jIZTvBOU17O",
+    "role": "user"
+  },
+  {
+    "id": 3,
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "email": "qwerjordsag@gmail.com",
+    "password": "$2b$10$vOiezFmNPvHuk0U6jVqhQOce2jkHwSv7ZB8DwJZITSYTPLAhYFaMi",
+    "role": "user"
+  }
+]

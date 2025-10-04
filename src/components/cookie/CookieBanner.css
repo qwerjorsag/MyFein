@@ -1,0 +1,45 @@
+/* cookieBanner.css */
+
+.cookie-banner-dialog {
+    border-radius: 0px; /* Rounded corners for the dialog */
+}
+
+.cookie-banner-title {
+    font-size: 1.5rem;
+    color: #d4a500; /* Golden yellow */
+    text-align: center;
+}
+
+.cookie-banner-content {
+
+    padding: 20px;
+}
+
+.cookie-banner-text {
+    color: #2b3e42; /* Dark gray */
+    margin-bottom: 20px;
+}
+
+.cookie-banner-checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cookie-banner-checkbox {
+    color: #d4a500 !important; /* Customize checkbox color */
+}
+
+.cookie-banner-label {
+    font-size: 1rem;
+    color: #2b3e42;
+}
+
+.cookie-banner-actions {
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+
+

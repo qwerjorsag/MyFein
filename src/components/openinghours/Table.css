@@ -1,0 +1,82 @@
+/* Table Container */
+.branch-detail__opening-hours {
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+/* Table Header */
+.branch-detail__opening-hours h3 {
+    font-size: 1.5rem;
+    color: #2b3e42;
+    margin-bottom: 15px;
+}
+
+.branch-detail__opening-hours table {
+    text-align: center;
+    justify-content: center;
+    /*border-collapse: collapse;*/
+
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+/* Table Styling */
+
+/* Table Header Cells */
+.branch-detail__opening-hours th {
+    padding: 12px 15px;
+    text-align: center;
+    background-color: #d4a500;
+    color: white;
+    font-size: 1rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Table Body Cells */
+.branch-detail__opening-hours td {
+    padding: 12px 15px;
+    font-size: 1rem;
+    color: #2b3e42;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Even Row Background */
+.branch-detail__opening-hours tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Last Row Styling */
+.branch-detail__opening-hours tr:last-child td {
+    border-bottom: none;
+}
+
+/* Table Row Hover Effect */
+.branch-detail__opening-hours tr:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    scale: 1.05;
+    cursor: pointer;
+}
+
+/* Border Radius for Table */
+.branch-detail__opening-hours th, .branch-detail__opening-hours td {
+    border-radius: 6px;
+}
+
+/* Strong Day Text */
+.branch-detail__opening-hours td strong {
+    font-weight: bold;
+    color: #d4a500;
+}
+
+.center-table {text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin-bottom: 3.5%;
+}

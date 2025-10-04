@@ -1,0 +1,82 @@
+/* Links */
+.navbar-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.navbar-links li {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 15px;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #2b3e42;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    transition: color 0.3s ease;
+    border-radius: 10px;
+}
+
+/* Background and Scaling on Hover */
+.navbar-links li:hover {
+    background-color: #d4a500; /* Darker gold background */
+    transform: scale(1.1); /* Scale up on hover */
+    border: black;
+    border-radius: 10px;
+}
+
+.navbar-links li a:hover {
+    color: #ffffff; /* White text color on hover */
+
+}
+
+/* Highlight the active link */
+.navbar-links .active-link {
+    font-weight: bold;
+    color: #d4a500;
+    scale: 1.1;
+    border: 2px solid #d4a500;
+
+}
+
+.navbar-links .active-link:hover {
+    scale: none;
+    cursor: not-allowed;
+    background-color: darkgrey;
+    border: 2px solid darkgrey;
+
+
+}
+
+@media (max-width: 768px) {
+    .navbar-links {
+                gap: 0;
+        font-weight: normal;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .navbar-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+        gap: 10px; /* Space between items */
+        font-weight: normal;
+        font-size: 0.9rem;
+        text-align: center;
+        justify-items: center; /* Center items horizontally within the grid cell */
+    }
+
+    /* Optional: if you have fewer than 3 items, ensure they are centered */
+    .navbar-links li {
+        display: flex;
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+    }
+}

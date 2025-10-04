@@ -1,0 +1,116 @@
+[
+  {
+    "shopname": "Main Street",
+    "size": "large",
+    "address": "123 Main Street",
+    "foto": "shop (1).png",
+    "city": "Cityville",
+    "description": "A large retail space located in the heart of Cityville, offering a variety of products.",
+    "latitude": "40.712776",
+    "longitude": "-74.005974",
+    "opening_hours": {
+      "monday": "09 - 20",
+      "tuesday": "09 - 20",
+      "wednesday": "09 - 20",
+      "thursday": "09 - 20",
+      "friday": "09 - 22",
+      "saturday": "10 - 18",
+      "sunday": "Closed"
+    }
+  },
+  {
+    "shopname": "Elm Avenue",
+    "size": "medium",
+    "address": "456 Elm Avenue",
+    "foto": "shop (2).png",
+    "city": "Townsburg",
+    "description": "A medium-sized store offering a selection of home goods and essentials.",
+    "latitude": "41.123456",
+    "longitude": "-75.654321",
+    "opening_hours": {
+      "monday": "10 - 19",
+      "tuesday": "10 - 19",
+      "wednesday": "10 - 19",
+      "thursday": "10 - 19",
+      "friday": "10 - 20",
+      "saturday": "11 - 17",
+      "sunday": "Closed"
+    }
+  },
+  {
+    "shopname": "Maple Road",
+    "size": "small",
+    "address": "789 Maple Road",
+    "foto": "shop (3).png",
+    "city": "Villagetown",
+    "description": "A cozy, small shop offering locally sourced crafts and gifts.",
+    "latitude": "42.987654",
+    "longitude": "-73.123456",
+    "opening_hours": {
+      "monday": "08 - 18",
+      "tuesday": "08 - 18",
+      "wednesday": "08 - 18",
+      "thursday": "08 - 18",
+      "friday": "08 - 19",
+      "saturday": "09 - 15",
+      "sunday": "Closed"
+    }
+  },
+  {
+    "shopname": "Oak Lane",
+    "size": "medium",
+    "address": "321 Oak Lane",
+    "foto": "shop (4).png",
+    "city": "Hamletville",
+    "description": "A medium-sized branch offering a range of outdoor gear and sporting goods.",
+    "latitude": "43.456789",
+    "longitude": "-72.987654",
+    "opening_hours": {
+      "monday": "09 - 18",
+      "tuesday": "09 - 18",
+      "wednesday": "09 - 18",
+      "thursday": "09 - 18",
+      "friday": "09 - 19",
+      "saturday": "10 - 16",
+      "sunday": "Closed"
+    }
+  },
+  {
+    "shopname": "Pine Drive",
+    "size": "large",
+    "address": "654 Pine Drive",
+    "foto": "shop (5).png",
+    "city": "Metropolis",
+    "description": "A large flagship store offering everything from electronics to fashion.",
+    "latitude": "40.730610",
+    "longitude": "-73.935242",
+    "opening_hours": {
+      "monday": "09 - 21",
+      "tuesday": "09 - 21",
+      "wednesday": "09 - 21",
+      "thursday": "09 - 21",
+      "friday": "09 - 22",
+      "saturday": "10 - 18",
+      "sunday": "11 - 17"
+    }
+  },
+  {
+    "shopname": "River Bend",
+    "size": "tiny",
+    "address": "111 River Bend",
+    "foto": "shop (6).png",
+    "city": "Lakeside",
+    "description": "A tiny shop offering specialty items like local produce and handmade goods.",
+    "latitude": "39.654321",
+    "longitude": "-76.543210",
+    "opening_hours": {
+      "monday": "08 - 16",
+      "tuesday": "08 - 16",
+      "wednesday": "08 - 16",
+      "thursday": "08 - 16",
+      "friday": "08 - 17",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    }
+  }
+]

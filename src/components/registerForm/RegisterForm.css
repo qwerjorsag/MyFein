@@ -1,0 +1,181 @@
+/* SignUp Container */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaf3f5;
+    font-family: Arial, sans-serif;
+}
+
+/* SignUp Title */
+.signup-title {
+    font-size: 2rem;
+    color: #2b3e42;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.signup-form {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Input Fields */
+.signup-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-field label {
+    font-size: 0.9rem;
+    color: #2b3e42;
+    margin-bottom: 5px;
+}
+
+.signup-field input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.signup-field input:focus {
+    border-color: #d4a500; /* Focus border color */
+}
+
+/* Submit Button */
+.signup-button {
+    background-color: #d4a500;
+    color: white;
+    font-size: 1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #b67a00; /* Darker gold on hover */
+    transform: scale(1.05); /* Slight scaling on hover */
+}
+
+/* Disabled Submit Button */
+.signup-button:disabled {
+    background-color: #B0BEC5; /* Grey background when disabled */
+    color: white;
+    cursor: not-allowed; /* Change cursor to not-allowed */
+}
+
+/* Login Link */
+.signup-login {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login-link {
+    color: #d4a500; /* Same color as the sign-in button */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link:hover {
+    color: #b67a00; /* Darker gold on hover */
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+.password-input {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.google-button {
+    background-color: #db4437;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.facebook-button {
+    background-color: #4267B2;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+/* Google Button */
+.google-button {
+    background-color: #db4437; /* Google Red */
+    color: white;
+    font-size: 1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.google-button:hover {
+    background-color: #c33c2f; /* Darker shade of Google Red */
+    transform: scale(1.05); /* Slight scaling on hover */
+}
+
+/* Facebook Button */
+.facebook-button {
+    background-color: #4267B2; /* Facebook Blue */
+    color: white;
+    font-size: 1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.facebook-button:hover {
+    background-color: #365899; /* Darker shade of Facebook Blue */
+    transform: scale(1.05); /* Slight scaling on hover */
+}
+
+/* Container for Social Buttons */
+.oauth-buttons {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /*align-items: center;*/
+    /*gap: 10px;*/
+}
+
+
+.text-center{
+   text-align: center;
+
+}

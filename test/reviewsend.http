@@ -1,0 +1,9 @@
+POST http://localhost:5000/api/review
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "rating": 5,
+  "reviewText": "This is a great product!",
+  "date": "2025-01-08T12:00:00Z"
+}

@@ -1,0 +1,212 @@
+[
+    {
+        "name": "Espresso",
+        "price": 45,
+        "type": "káva"
+    },
+    {
+        "name": "Cappuccino",
+        "price": 55,
+        "type": "káva"
+    },
+    {
+        "name": "Latté",
+        "price": 60,
+        "type": "káva"
+    },
+    {
+        "name": "Americano",
+        "price": 50,
+        "type": "káva"
+    },
+    {
+        "name": "Mocha",
+        "price": 65,
+        "type": "káva"
+    },
+    {
+        "name": "Macchiato",
+        "price": 50,
+        "type": "káva"
+    },
+    {
+        "name": "Flat White",
+        "price": 60,
+        "type": "káva"
+    },
+    {
+        "name": "Cortado",
+        "price": 55,
+        "type": "káva"
+    },
+    {
+        "name": "Frappe",
+        "price": 70,
+        "type": "káva"
+    },
+    {
+        "name": "Čaj Latté",
+        "price": 60,
+        "type": "káva"
+    },
+    {
+        "name": "Citronová limonáda",
+        "price": 40,
+        "type": "nealkoholické"
+    },
+    {
+        "name": "Zázvorová limonáda",
+        "price": 45,
+        "type": "nealkoholické"
+    },
+    {
+        "name": "Jablečný džus",
+        "price": 50,
+        "type": "nealkoholické"
+    },
+    {
+        "name": "Pomerančový džus",
+        "price": 50,
+        "type": "nealkoholické"
+    },
+    {
+        "name": "Ledený čaj",
+        "price": 45,
+        "type": "nealkoholické"
+    },
+    {
+        "name": "Horká čokoláda",
+        "price": 60,
+        "type": "nealkoholické"
+    },
+    {
+        "name": "Pilsner Urquell",
+        "price": 55,
+        "type": "pivo"
+    },
+    {
+        "name": "Gambrinus Original 10°",
+        "price": 50,
+        "type": "pivo"
+    },
+    {
+        "name": "Staropramen",
+        "price": 60,
+        "type": "pivo"
+    },
+    {
+        "name": "Velkopopovický Kozel",
+        "price": 65,
+        "type": "pivo"
+    },
+    {
+        "name": "Chardonnay",
+        "price": 85,
+        "type": "víno"
+    },
+    {
+        "name": "Sauvignon Blanc",
+        "price": 90,
+        "type": "víno"
+    },
+    {
+        "name": "Merlot",
+        "price": 95,
+        "type": "víno"
+    },
+    {
+        "name": "Cabernet Sauvignon",
+        "price": 100,
+        "type": "víno"
+    },
+    {
+        "name": "Palačinka s Nutellou",
+        "price": 75,
+        "type": "palačinky"
+    },
+    {
+        "name": "Palačinka se šlehačkou",
+        "price": 70,
+        "type": "palačinky"
+    },
+    {
+        "name": "Palačinka s ovocem",
+        "price": 80,
+        "type": "palačinky"
+    },
+    {
+        "name": "Palačinka s tvarohem",
+        "price": 85,
+        "type": "palačinky"
+    },
+    {
+        "name": "Gin Tonic",
+        "price": 120,
+        "type": "alkoholické nápoje"
+    },
+    {
+        "name": "Mojito",
+        "price": 130,
+        "type": "alkoholické nápoje"
+    },
+    {
+        "name": "Long Island Ledový Čaj",
+        "price": 140,
+        "type": "alkoholické nápoje"
+    },
+    {
+        "name": "Margarita",
+        "price": 135,
+        "type": "alkoholické nápoje"
+    },
+    {
+        "name": "Whiskey Sour",
+        "price": 150,
+        "type": "alkoholické nápoje"
+    },
+    {
+        "name": "Piña Colada",
+        "price": 140,
+        "type": "alkoholické nápoje"
+    },
+    {
+        "name": "Rum s kolou",
+        "price": 120,
+        "type": "alkoholické nápoje"
+    },
+    {
+        "name": "Pilsner Urquell (0,5l)",
+        "price": 75,
+        "type": "pivo"
+    },
+    {
+        "name": "Staropramen (0,5l)",
+        "price": 70,
+        "type": "pivo"
+    },
+    {
+        "name": "Tiramisu",
+        "price": 65,
+        "type": "dezerty"
+    },
+    {
+        "name": "Čokoládový dort",
+        "price": 60,
+        "type": "dezerty"
+    },
+    {
+        "name": "Jablečný koláč",
+        "price": 55,
+        "type": "dezerty"
+    },
+    {
+        "name": "Cheesecake",
+        "price": 75,
+        "type": "dezerty"
+    },
+    {
+        "name": "Koláč s mákem",
+        "price": 50,
+        "type": "dezerty"
+    }
+]

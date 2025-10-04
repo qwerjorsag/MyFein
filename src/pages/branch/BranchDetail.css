@@ -1,0 +1,71 @@
+/* Styling for the branch detail page */
+.branch-detail {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.branch-details-title {
+    font-size: 2rem;
+    color: #d4a500; /* Golden Yellow */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.branch-detail__info {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #6e4c31; /* Coffee-brown */
+    text-align: center;
+}
+
+.branch-detail__text {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.branch-detail__text strong {
+    font-weight: bold;
+}
+
+.branch-detail__image-wrapper {
+    margin: 20px auto; /* Center it horizontally and add space at the top */
+    text-align: center;
+    /*width: 80%; !* Adjust width to make it wider (e.g., 80% of the parent container) *!*/
+    /*max-width: 1200px; !* Limit maximum width for larger screens *!*/
+    /*padding: 20px; !* Add padding for spacing inside the wrapper *!*/
+    /*background-color: #f8f9fa; !* Light gray background for contrast *!*/
+    /*border-radius: 10px; !* Optional: rounded corners *!*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); !* Optional: subtle shadow for depth *!*/
+}
+
+.branch-detail__image {
+    width: 100%; /* Ensures it spans the width of its container */
+    max-width: 800px; /* Increased max-width for a larger image display */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 15px; /* Slightly increased for a softer look */
+    object-fit: cover; /* Makes the image fill its area proportionally */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow for more depth */
+
+    background-color: #f4f4f4; /* Optional: adds a light background to complement */
+    padding: 5px; /* Optional: adds padding inside the border radius for a framed look */
+
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Styling for fallback when branch is not found */
+.branch-detail.not-found {
+    padding: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.branch-detail.not-found .branch-title {
+    color: #2b3e42;
+    font-size: 1.8rem;
+}
+

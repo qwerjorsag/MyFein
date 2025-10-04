@@ -1,0 +1,1192 @@
+[
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "date": "2024-11-30",
+    "time": "10:15",
+    "branch": "Pobočka Oak Lane",
+    "message": ""
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420789785754",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "message": ""
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420547898654",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "description": "Medium roast coffee with notes of cocoa, brandy, and raisins. Creamy body and low acidity.",
+        "imageUrl": "coffee/coffee (1).png",
+        "origin": "Brazil",
+        "region": "Alta Mogiana",
+        "producer": "Paula Toledo Campos family",
+        "altitude": "1030 m",
+        "variety": "Yellow Catuai",
+        "process": "Natural",
+        "roastLevel": "Medium",
+        "aroma": "Cocoa, Brandy",
+        "flavor": "Cocoa, Brandy, Raisins",
+        "aftertaste": "Raisins",
+        "acidity": "Low",
+        "body": "Full, Creamy",
+        "weights": [
+          {
+            "weight": 250,
+            "price": 299
+          },
+          {
+            "weight": 500,
+            "price": 549
+          },
+          {
+            "weight": 1000,
+            "price": 999
+          }
+        ],
+        "inStock": true,
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 2
+      },
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "description": "Rich and balanced coffee with caramel sweetness and hints of red fruits.",
+        "imageUrl": "coffee/coffee (3).png",
+        "origin": "Colombia",
+        "region": "Huila",
+        "producer": "Local Farmers Cooperative",
+        "altitude": "1500-2000 m",
+        "variety": "Caturra, Castillo",
+        "process": "Washed",
+        "roastLevel": "Medium",
+        "aroma": "Caramel, Red Fruits",
+        "flavor": "Caramel, Berries",
+        "aftertaste": "Sweet and Fruity",
+        "acidity": "Medium",
+        "body": "Balanced",
+        "weights": [
+          {
+            "weight": 250,
+            "price": 329
+          },
+          {
+            "weight": 500,
+            "price": 599
+          },
+          {
+            "weight": 1000,
+            "price": 1099
+          }
+        ],
+        "inStock": true,
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "name": "Ethiopia Yirgacheffe",
+        "description": "Bright and floral single-origin coffee with notes of bergamot and jasmine.",
+        "imageUrl": "coffee/coffee (2).png",
+        "origin": "Ethiopia",
+        "region": "Yirgacheffe",
+        "producer": "Smallholder Farmers",
+        "altitude": "1900 m",
+        "variety": "Heirloom",
+        "process": "Washed",
+        "roastLevel": "Light",
+        "aroma": "Floral, Bergamot",
+        "flavor": "Jasmine, Citrus",
+        "aftertaste": "Tea-like",
+        "acidity": "Bright",
+        "body": "Light",
+        "weights": [
+          {
+            "weight": 250,
+            "price": 299
+          },
+          {
+            "weight": 500,
+            "price": 549
+          },
+          {
+            "weight": 1000,
+            "price": 999
+          }
+        ],
+        "inStock": true,
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420754789546",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 2
+      },
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 4
+      },
+      {
+        "id": 2,
+        "name": "Ethiopia Yirgacheffe",
+        "selectedWeight": {
+          "weight": 500,
+          "price": 549
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420784546587",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrová",
+    "city": "Praha",
+    "postalCode": "14200",
+    "totalPrice": 6780,
+    "message": "",
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "Kenya AA",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 349
+        },
+        "quantity": 2
+      },
+      {
+        "id": 9,
+        "name": "Tanzania Peaberry",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 3
+      },
+      {
+        "id": 8,
+        "name": "Panama Boquete",
+        "selectedWeight": {
+          "weight": 1000,
+          "price": 1199
+        },
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420784575459",
+    "deliveryMethod": {
+      "id": "pickup",
+      "label": "Pick up place",
+      "price": 30
+    },
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrová",
+    "city": "Praha",
+    "postalCode": "14200",
+    "totalPrice": 6780,
+    "message": "",
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "Kenya AA",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 349
+        },
+        "quantity": 2
+      },
+      {
+        "id": 9,
+        "name": "Tanzania Peaberry",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 3
+      },
+      {
+        "id": 8,
+        "name": "Panama Boquete",
+        "selectedWeight": {
+          "weight": 1000,
+          "price": 1199
+        },
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420786589654",
+    "delivery": "Home",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "totalPrice": 6780,
+    "message": "",
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "Kenya AA",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 349
+        },
+        "quantity": 2
+      },
+      {
+        "id": 9,
+        "name": "Tanzania Peaberry",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 3
+      },
+      {
+        "id": 8,
+        "name": "Panama Boquete",
+        "selectedWeight": {
+          "weight": 1000,
+          "price": 1199
+        },
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420767876565",
+    "delivery": "Home",
+    "email": "qwerjsdorssdag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "totalPrice": 299,
+    "message": "",
+    "cart": [
+      {
+        "id": 2,
+        "name": "Ethiopia Yirgacheffe",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "defaultUserId",
+    "orderId": "order-1734911949835"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777876765",
+    "delivery": "Shop",
+    "email": "qwerjsdorssdag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "totalPrice": 0,
+    "message": "",
+    "cart": [],
+    "userId": "1",
+    "orderId": "order-1734912701993"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777777777",
+    "email": "qwerjsdorssdag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "deliveryMethod": "Vyzvednutí na prodejně",
+    "deliveryPrice": 10,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 1545,
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 3
+      },
+      {
+        "id": 4,
+        "name": "Guatemala Antigua",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 319
+        },
+        "quantity": 2
+      }
+    ],
+    "userId": "1",
+    "orderId": "order-1734985273206"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777888999",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "deliveryMethod": "Vyzvednutí na prodejně",
+    "deliveryPrice": 10,
+    "selectedPayment": "Dobírka",
+    "paymentCost": 20,
+    "totalPrice": 2781,
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 6
+      },
+      {
+        "id": 4,
+        "name": "Guatemala Antigua",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 319
+        },
+        "quantity": 3
+      }
+    ],
+    "userId": "1",
+    "orderId": "order-1734985478895"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777111222",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "deliveryMethod": "delivery",
+    "deliveryPrice": 0,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 598,
+    "cart": [
+      {
+        "id": 2,
+        "name": "Ethiopia Yirgacheffe",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 2
+      }
+    ],
+    "userId": "1",
+    "orderId": "order-1734986932206"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777555666",
+    "email": "qwerjsdorssdag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "deliveryMethod": "delivery",
+    "deliveryPrice": 0,
+    "selectedPayment": "Dobírka",
+    "paymentCost": 20,
+    "totalPrice": 319,
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "1",
+    "orderId": "order-1734987400079"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777123456",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "deliveryMethod": "Doručení na adresu",
+    "deliveryPrice": 100,
+    "selectedPayment": "Bankovní převod",
+    "paymentCost": 0,
+    "totalPrice": 399,
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "1",
+    "orderId": "order-1734987515739"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420789123456",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "deliveryMethod": "Doručení na adresu",
+    "deliveryPrice": 100,
+    "selectedPayment": "Dobírka",
+    "paymentCost": 20,
+    "totalPrice": 1209,
+    "cart": [
+      {
+        "id": 4,
+        "name": "Guatemala Antigua",
+        "selectedWeight": {
+          "weight": 1000,
+          "price": 1089
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "1",
+    "orderId": "order-1734991384071"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777888999",
+    "email": "qwerjsdorssdag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "deliveryMethod": "Vyzvednutí na prodejně",
+    "deliveryPrice": 10,
+    "selectedPayment": "Dobírka",
+    "paymentCost": 20,
+    "totalPrice": 3320,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 10
+      }
+    ],
+    "userId": "1",
+    "orderId": "order-1734993159378"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777555666",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Vyzvednutí na prodejně",
+    "deliveryPrice": 10,
+    "selectedPayment": "Dobírka",
+    "paymentCost": 20,
+    "totalPrice": 329,
+    "cart": [
+      {
+        "id": 2,
+        "name": "Ethiopia Yirgacheffe",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "defaultUserId",
+    "orderId": "order-1734994190310"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777123456",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Vyzvednutí na prodejně",
+    "deliveryPrice": 10,
+    "selectedPayment": "Dobírka",
+    "paymentCost": 20,
+    "totalPrice": 6024,
+    "cart": [
+      {
+        "id": 2,
+        "name": "Ethiopia Yirgacheffe",
+        "selectedWeight": {
+          "weight": 1000,
+          "price": 999
+        },
+        "quantity": 6
+      }
+    ],
+    "userId": "defaultUserId",
+    "orderId": "order-1734994945634"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777111111",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "selectedBranch": "Elm Avenue",
+    "deliveryMethod": "Vyzvednutí na prodejně",
+    "deliveryPrice": 10,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 309,
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "defaultUserId",
+    "orderId": "order-1734995099626"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777222222",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "selectedBranch": "",
+    "deliveryMethod": "Doručení na výdejní místo",
+    "deliveryPrice": 80,
+    "selectedPayment": "Dobírka",
+    "paymentCost": 20,
+    "totalPrice": 399,
+    "cart": [
+      {
+        "id": 2,
+        "name": "Ethiopia Yirgacheffe",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "defaultUserId",
+    "orderId": "order-1734995287108"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777999999",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "selectedBranch": "Main Street",
+    "deliveryMethod": "Doručení na výdejní místo",
+    "deliveryPrice": 80,
+    "selectedPayment": "Dobírka",
+    "paymentCost": 20,
+    "totalPrice": 399,
+    "cart": [
+      {
+        "id": 2,
+        "name": "Ethiopia Yirgacheffe",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "defaultUserId",
+    "orderId": "order-1734995378018"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777321321",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Doručení na adresu",
+    "deliveryPrice": 100,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 728,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      },
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "defaultUserId",
+    "orderId": "order-1734996465099"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777987654",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Doručení na adresu",
+    "deliveryPrice": 100,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 728,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      },
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "defaultUserId",
+    "orderId": "order-1734996897479"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777222444",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "Elm Avenue",
+    "deliveryMethod": "Vyzvednutí na prodejně",
+    "deliveryPrice": 10,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 638,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      },
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "defaultUserId",
+    "orderId": "order-1734997518755"
+  },
+  {
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777222444",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "Maple Road",
+    "deliveryMethod": "Vyzvednutí na prodejně",
+    "deliveryPrice": 10,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 638,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      },
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ],
+    "userId": "defaultUserId",
+    "orderId": "order-1734997678260"
+  },
+  {
+    "userId": null,
+    "orderId": "order-1734997977283",
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777999888",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "Maple Road",
+    "deliveryMethod": "Vyzvednutí na prodejně",
+    "deliveryPrice": 10,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 638,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      },
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userId": null,
+    "orderId": "order-1734998509183",
+    "orderDate": "2024-12-24T00:01:49.183Z",
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777444111",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Doručení na adresu",
+    "deliveryPrice": 100,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 2492,
+    "cart": [
+      {
+        "id": 1,
+        "name": "Brazil Alta Mogiana",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 299
+        },
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "userId": null,
+    "orderId": "order-1735143635097",
+    "orderDate": "2024-12-25T16:20:35.097Z",
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777555888",
+    "email": "qwerjorsagos@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "Oak Lane",
+    "deliveryMethod": "Vyzvednutí na prodejně",
+    "deliveryPrice": 10,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 1338,
+    "cart": [
+      {
+        "id": 2,
+        "name": "Ethiopia Yirgacheffe",
+        "selectedWeight": {
+          "weight": 1000,
+          "price": 999
+        },
+        "quantity": 1
+      },
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userId": null,
+    "orderId": "order-1735144473618",
+    "orderDate": "2024-12-25T16:34:33.618Z",
+    "firstName": "Jiří",
+    "lastName": "Or",
+    "phoneNumber": "+420777444555",
+    "email": "qwerjorvgdsfgdsfsag@gmail.com",
+    "address": "Srurova",
+    "city": "Prg",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Doručení na výdejní místo",
+    "deliveryPrice": 80,
+    "selectedPayment": "Dobírka",
+    "paymentCost": 20,
+    "totalPrice": 1757,
+    "cart": [
+      {
+        "id": 2,
+        "name": "Ethiopia Yirgacheffe",
+        "selectedWeight": {
+          "weight": 1000,
+          "price": 999
+        },
+        "quantity": 1
+      },
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Costa Rica Tarrazu",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userId": null,
+    "orderId": "order-1735144520047",
+    "orderDate": "2024-12-25T16:35:20.047Z",
+    "firstName": "Jiří",
+    "lastName": "Orság",
+    "phoneNumber": "+420777444111",
+    "email": "qwerjorsag@gmail.com",
+    "address": "Štúrova 1417/2",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Doručení na výdejní místo",
+    "deliveryPrice": 80,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 409,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userId": null,
+    "orderId": "order-1737919522359",
+    "orderDate": "2025-01-26T19:25:22.359Z",
+    "firstName": "Sdgsdgs",
+    "lastName": "Sdgdsgsd",
+    "phoneNumber": "+420745874569",
+    "email": "sdfsdfsfsdf@gmail.com",
+    "address": "sdfsfsfsd",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Doručení na výdejní místo",
+    "deliveryPrice": 80,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 409,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userId": null,
+    "orderId": "order-1737919714248",
+    "orderDate": "2025-01-26T19:28:34.248Z",
+    "firstName": "Sdfsfs",
+    "lastName": "Sfdsfsdf",
+    "phoneNumber": "+420765984521",
+    "email": "sfdsdfsfg@gmail.com",
+    "address": "sdfsfsdsdf",
+    "city": "Praha 4",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Doručení na adresu",
+    "deliveryPrice": 100,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 429,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userId": null,
+    "orderId": "order-1737930939335",
+    "orderDate": "2025-01-26T22:35:39.335Z",
+    "firstName": "Fsfsfs",
+    "lastName": "Zgzgi",
+    "phoneNumber": "+420745452112",
+    "email": "ibbhihb@fd.dgfd",
+    "address": "hiuihih",
+    "city": "uihiuhiu",
+    "postalCode": "14223",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Doručení na adresu",
+    "deliveryPrice": 100,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 429,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userId": null,
+    "orderId": "order-1739027013382",
+    "orderDate": "2025-02-08T15:03:33.383Z",
+    "firstName": "Sdfsdf",
+    "lastName": "Sdfsdfs",
+    "phoneNumber": "+420754555666",
+    "email": "sfsdfsds@gmail.com",
+    "address": "sdfsdfsdfsdfs46+569",
+    "city": "sdfsdfsd",
+    "postalCode": "14200",
+    "message": "",
+    "branch": "",
+    "deliveryMethod": "Doručení na adresu",
+    "deliveryPrice": 100,
+    "selectedPayment": "Karta",
+    "paymentCost": 0,
+    "totalPrice": 429,
+    "cart": [
+      {
+        "id": 3,
+        "name": "Colombia Huila Supremo",
+        "selectedWeight": {
+          "weight": 250,
+          "price": 329
+        },
+        "quantity": 1
+      }
+    ]
+  }
+]

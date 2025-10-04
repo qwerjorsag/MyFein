@@ -1,0 +1,51 @@
+.coffee-card__title{
+    text-align: center;
+}
+.checkout {
+    position: fixed;
+    left: 0; /* Align to the right side */
+    top: 30%; /* Start vertically at 50% of the viewport height */
+    transform: translateY(-50%); /* Center the element vertically */
+    margin-left: 20px; /* Optional: Add some spacing from the right edge */
+    /*z-index: 300;*/
+}
+
+.coffee-card__text{
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+
+.empty-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.cart-items {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+
+}
+
+/*@media (max-width: 1200px) {*/
+/*    .checkout {*/
+/*        position: relative;*/
+/*        display: flex;*/
+/*        transform: translateX(50%); !* Center horizontally *!*/
+/*        text-align: center;*/
+/*        top: auto; !* Remove top positioning *!*/
+/*        width: 90%; !* Make it more fluid *!*/
+/*        max-width: 320px; !* Slightly larger than tablet *!*/
+/*    }*/
+/*}*/
+
+
